@@ -1,5 +1,5 @@
 <?php
-
+// Configuration de la base de données
 return [
     'host' => 'localhost',
     'dbname' => 'BlueReading_v3',

@@ -1,7 +1,7 @@
 <?php
     require_once __DIR__ . '/../config/database.php';
     require_once __DIR__ . '/../models/MainManager.php';
-    require_once __DIR__ . '/../views/v_header.php';
+    require_once __DIR__ . '/../views/headers/v_header.php';
     $mainManager = new MainManager((new Database())->getConnection());
     $content = $mainManager->getAProposContent();
     

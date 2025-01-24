@@ -7,13 +7,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content-security-policy="default-src 'self'; img-src 'self' https://cdn.jsdelivr.net; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://cdn.jsdelivr.net; font-src 'self' https://cdn.jsdelivr.net; connect-src 'self';">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/BlueReading_v3/public/css/styles.css">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" href="/BlueReading_v3/public/images/favicon.ico"> 
     <title>BlueReading</title>
 </head>
-<body>
+<body >
     <div class="container">
         <div class="row">
             <header>
@@ -34,18 +36,13 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="?action=ajouter">
-                                        <i class="fas fa-plus-circle me-2"></i>Ajouter un livre
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="?action=bibliotheque">
-                                        <i class="fas fa-book me-2"></i>Mes livres
-                                    </a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link " href="?action=apropos">
                                         <i class="fas fa-info-circle me-2"></i>A propos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class ="nav-link" href="?action=connexion">
+                                        <i class="fas fa-user-circle me-2"></i>Connexion
                                     </a>
                                 </li>
                             </ul>

@@ -1,4 +1,5 @@
-<?php require_once __DIR__ . '/../v_header.php'; 
+<?php 
+require_once __DIR__ . './../headers/v_header_connecte.php'; 
 ?>
 
 <div class="container-fluid bibliotheque-section">

@@ -1,7 +1,7 @@
 <?php
     require_once '../config/database.php';
     require_once '../models/MainManager.php';
-    require_once '../views/v_header.php';
+    require_once __DIR__ . '/headers/v_header.php';
 ?>
 
 <div class="container-fluid error-section">
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="error-actions">
-                    <a href="#" onclick="handleReturnButton(event)" class="btn btn-custom me-3">
+                    <a href="./" onclick="handleReturnButton(event)" class="btn btn-custom me-3">
                         <i class="fas fa-home me-2"></i>
                         Retour à l'accueil
                     </a>

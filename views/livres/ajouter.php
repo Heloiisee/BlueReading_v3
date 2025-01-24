@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../v_header.php';
+require_once __DIR__ . '/../headers/v_header_connecte.php';
 
 ?>
 <?php
@@ -35,21 +35,25 @@ $success = isset($success) ? $success : '';
                                 <div class="form-group mb-4">
                                     <label for="titre" class="form-label">Titre du Livre <span class="required">*</span></label>
                                     <input type="text" class="form-control border-0 bg-light" id="titre" name="titre" required>
+                                    <small class="form-text text-muted">Entrez le titre du livre</small>
                                 </div>
 
                                 <div class="form-group mb-4">
                                     <label for="auteur" class="form-label">Auteur <span class="required">*</span></label>
                                     <input type="text" class="form-control border-0 bg-light" id="auteur" name="auteur" required>
+                                    <small class="form-text text-muted">Entrez le nom de l'auteur du livre</small>
                                 </div>
 
                                 <div class="form-group mb-4">
                                     <label for="pages" class="form-label">Nombre de pages <span class="required">*</span></label>
                                     <input type="number" class="form-control border-0 bg-light" id="pages" name="pages" required>
+                                    <small class="form-text text-muted">Entrez le nombre de pages du livre</small>
                                 </div>
 
                                 <div class="form-group mb-4">
                                     <label for="description" class="form-label">Description <span class="required">*</span></label>
                                     <textarea class="form-control border-0 bg-light" id="description" name="description" rows="5" required></textarea>
+                                    <small class="form-text text-muted">Entrez une description du livre</small>
                                 </div>
 
                                 <div class="form-group mb-4">
@@ -90,15 +94,19 @@ $success = isset($success) ? $success : '';
                                         <input class="form-check-input" type="checkbox" id="genre9" name="genres[]" value="Autre">
                                         <label class="form-check-label" for="genre9">Autre</label>
                                     </div>
+                                    <small class="form-text text-muted">Sélectionnez un ou plusieurs genres</small>
                                 </div>
                                 </div>
                                 <div class="form-group mb-4">
-                                    <label for="date" class="form-label">Date de publication <span class="required">*</span></label>
-                                    <input type="date" class="form-control border-0 bg-light" id="date" name="date" required>
+                                    <label for="date_publication" class="form-label">Date de publication <span class="text-muted">(facultatif)</span></label>
+                                    <input type="date" class="form-control border-0 bg-light" id="date_publication" name="date_publication">
+                                    <small class="form-text text-muted">Entrez la date de publication du livre si vous la connaissez</small>
+                                    
                                 </div>
                                 <div class="form-group mb-4">
                                     <label for="image" class="form-label">Image de couverture</label>
                                     <input type="file" name="image" alt="" accept="image/*" id="image" class="form-control border-0 bg-light">
+                                    <small class="form-text text-muted">Formats acceptés : .jpg, .jpeg, .png, .gif</small>
                                 </div>
                                 <div class="form-group mb-4">
                                     <label for="statut" class="form-label">Statut de lecture <span class="required">*</span></label>
@@ -107,8 +115,11 @@ $success = isset($success) ? $success : '';
                                         <option value="En cours">En cours</option>
                                         <option value="Lu">Lu</option>
                                     </select>
+                                    <small class="form-text text-muted">Sélectionnez le statut de lecture du livre</small>
                                 </div>
-                                <button type="submit" class="btn btn-custom px-4">Soumettre</button>
+                                <div class="d-flex justify-content-md-end">
+                                    <button type="submit" class="btn btn-custom px-4">Soumettre</button>
+                                </div>
                             </div>
                             </div>
                         </form>

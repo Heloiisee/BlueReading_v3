@@ -1,9 +1,8 @@
 <?php
-    // views/v_accueil.php
-    require_once __DIR__ . '/../config/database.php';
-    require_once __DIR__ . '/../models/MainManager.php';
-    require_once __DIR__ . '/../views/v_header.php';
-    
+// views/v_accueil_connecte.php
+require_once __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/../models/MainManager.php';
+require_once __DIR__ . '/../views/headers/v_header_connecte.php';
 ?>
 
 <section class="header-section">
@@ -32,7 +31,6 @@
                                     <i class="fas fa-book"></i>
                                     <h3><?= htmlspecialchars($stats['derniers_livres'] ?? '0') ?></h3>
                                     <p>Derniers livres ajoutés</p>
-                                    
                                 </div>
                             </div>
                         </div>
@@ -55,5 +53,5 @@
 </section>
 
 <?php
-    require_once __DIR__ . '/../views/v_footer.php';
+require_once __DIR__ . '/../views/v_footer.php';
 ?>

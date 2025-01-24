@@ -2,23 +2,23 @@
 
 // models/MainManager.php
 class MainManager {
-    private $db;
+    private $conn;
 
     public function __construct($db) {
-        $this->db = $db;
+        $this->conn = $db;
     }
 
     public function getStatistiques() {
         try {
             // Nombre total de livres
             $queryLivres = "SELECT COUNT(*) as total_livres FROM livres";
-            $stmtLivres = $this->db->prepare($queryLivres);
+            $stmtLivres = $this->conn->prepare($queryLivres);
             $stmtLivres->execute();
             $totalLivres = $stmtLivres->fetch(PDO::FETCH_ASSOC)['total_livres'];
 
             // Derniers livres ajoutés
             $queryDerniersLivres = "SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5";
-            $stmtDerniersLivres = $this->db->prepare($queryDerniersLivres);
+            $stmtDerniersLivres = $this->conn->prepare($queryDerniersLivres);
             $stmtDerniersLivres->execute();
             $derniersLivres = $stmtDerniersLivres->fetchAll(PDO::FETCH_ASSOC);
 

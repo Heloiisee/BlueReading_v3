@@ -1,0 +1,659 @@
+[24-Jan-2025 16:15:41 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:15:59 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:16:02 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:16:14 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:28:44 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:28:44 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header_connected.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:28:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header_connected.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(22): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:28:46 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:28:46 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header_connected.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:28:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header_connected.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(22): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:28:54 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:28:54 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header_connected.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:28:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header_connected.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(22): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:42:56 UTC] PHP Warning:  include(views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\index.php on line 22
+[24-Jan-2025 16:42:56 UTC] PHP Warning:  include(): Failed opening 'views/v_header.php' for inclusion (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\index.php on line 22
+[24-Jan-2025 16:42:56 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:42:56 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/headers/v_header_connected.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:42:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/headers/v_header_connected.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(22): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:45:29 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:45:29 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/headers/v_header_connected.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:45:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/headers/v_header_connected.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(22): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil.php on line 5
+[24-Jan-2025 16:50:34 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:51:41 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:51:41 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:51:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:52:07 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:52:07 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:52:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:52:08 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:52:08 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:52:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:52:09 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:52:09 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:52:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:53:15 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:53:15 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 16:53:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(28): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 16:53:42 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:53:42 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/views/accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:53:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/views/accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:20 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:55:20 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllersviews/accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllersviews/accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:21 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:55:21 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllersviews/accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllersviews/accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:21 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:55:21 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllersviews/accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllersviews/accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:54 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:55:54 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers\views\accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:55:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers\views\accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:56:26 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:56:26 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers..\views\accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:56:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers..\views\accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:28
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(75): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 28
+[24-Jan-2025 16:56:54 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 16:56:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(35): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 16:56:56 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:56:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(43): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:56:58 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 16:56:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\apropos.php:4
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(38): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(47): MainController->apropos()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 16:57:03 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 16:57:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\apropos.php:4
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(38): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(47): MainController->apropos()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 16:57:15 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:57:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(43): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:57:59 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:57:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(43): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:00 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(43): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:01 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 16:58:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(35): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 16:58:03 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:58:05 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 16:58:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(35): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 16:58:07 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(43): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:08 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 16:58:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\apropos.php:4
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(32): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(47): MainController->apropos()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 16:58:10 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(43): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 16:58:17 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:58:52 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:59:45 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 16:59:59 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:02:56 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:03:00 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:03:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(41): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:03:02 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:03:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:03:03 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:03:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(41): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:06:41 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:06:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(41): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:06:42 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:06:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:06:43 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:06:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:06:46 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:06:48 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:06:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:07:55 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:07:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:08:02 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:08:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:08:04 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:08:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:08:06 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:08:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres../headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(41): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:08:08 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 17:08:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\apropos.php:4
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(32): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(45): MainController->apropos()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\apropos.php on line 4
+[24-Jan-2025 17:08:59 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:09:01 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:09:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:09:02 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:09:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(41): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:09:06 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:09:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php:1
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(83): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(41): LivresController->afficherLivres()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\bibliotheque.php on line 1
+[24-Jan-2025 17:14:36 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:14:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views\livres/../views/headers/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php:2
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\LivresController.php(31): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(33): LivresController->ajouterLivre()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\livres\ajouter.php on line 2
+[24-Jan-2025 17:14:57 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:15:17 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:18:06 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:18:06 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 25
+[24-Jan-2025 17:18:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_accueil_non_connecte.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:25
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 25
+[24-Jan-2025 17:18:12 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_apropos.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 35
+[24-Jan-2025 17:18:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_apropos.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:35
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(45): MainController->apropos()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 35
+[24-Jan-2025 17:18:17 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\controllers/../views/v_apropos.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 35
+[24-Jan-2025 17:18:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\controllers/../views/v_apropos.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\controllers\MainController.php:35
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(45): MainController->apropos()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\controllers\MainController.php on line 35
+[24-Jan-2025 17:18:48 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:18:48 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:18:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:19:48 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:19:48 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:19:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:20:59 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:20:59 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:20:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:21:01 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:21:01 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:21:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:21:06 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:21:06 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:21:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:23:43 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:23:43 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:23:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:23:44 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:23:44 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:23:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(73): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:25:09 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:25:09 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:25:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:25:10 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:25:10 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:25:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:31:55 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:31:55 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:31:56 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:31:56 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:31:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:37:11 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:37:11 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:37:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:37:55 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:37:55 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:37:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:37:56 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:37:56 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:37:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:38:02 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:38:02 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:38:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:40:22 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:40:22 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:40:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:40:23 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:40:23 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:40:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:43:28 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 17:43:28 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 17:43:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 19:19:08 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:19:08 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 19:19:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(25): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 19:27:19 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:27:19 UTC] PHP Warning:  require_once(C:\laragon\www\BlueReading_v3\views/../views/v_header.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 19:27:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\laragon\www\BlueReading_v3\views/../views/v_header.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php:5
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\controllers\MainController.php(29): require_once()
+#1 C:\laragon\www\BlueReading_v3\index.php(78): MainController->accueil()
+#2 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\accueil_non_connecte.php on line 5
+[24-Jan-2025 19:29:53 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:30:13 UTC] PHP Warning:  require_once(/../views/headers/v_header_connexion_inscription.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\utilisateurs\inscription.php on line 3
+[24-Jan-2025 19:30:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../views/headers/v_header_connexion_inscription.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\utilisateurs\inscription.php:3
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(60): require_once()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\utilisateurs\inscription.php on line 3
+[24-Jan-2025 19:30:15 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:30:52 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:32:16 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:32:46 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:34:19 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:35:18 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:35:41 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:36:14 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:36:19 UTC] PHP Warning:  require_once(/../views/headers/v_header_connexion_inscription.php): Failed to open stream: No such file or directory in C:\laragon\www\BlueReading_v3\views\utilisateurs\inscription.php on line 3
+[24-Jan-2025 19:36:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/../views/headers/v_header_connexion_inscription.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\BlueReading_v3\views\utilisateurs\inscription.php:3
+Stack trace:
+#0 C:\laragon\www\BlueReading_v3\index.php(60): require_once()
+#1 {main}
+  thrown in C:\laragon\www\BlueReading_v3\views\utilisateurs\inscription.php on line 3
+[24-Jan-2025 19:36:21 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^
+[24-Jan-2025 19:42:42 UTC] SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « date_ajout » n'existe pas
+LINE 1: SELECT * FROM livres ORDER BY date_ajout DESC LIMIT 5
+                                      ^

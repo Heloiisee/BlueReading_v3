@@ -1,5 +1,10 @@
 <?php
 
+// Activer l'affichage des erreurs pour le diagnostic
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+ini_set('error_log', 'error.log');
+error_reporting(E_ALL);
 
 /**
  * Database configuration
@@ -38,7 +43,7 @@ class LivresController{
             'titre' => htmlspecialchars($_POST['titre']),
             'auteur' => htmlspecialchars($_POST['auteur']),
             'pages' => htmlspecialchars($_POST['pages']),
-            'genres' => htmlspecialchars($_POST['genres']),
+            'genre' => htmlspecialchars($_POST['genre']),
             'date_publication' => htmlspecialchars($_POST['date_publication']),
             'description' => htmlspecialchars($_POST['description']),
             'statut' => htmlspecialchars($_POST['statut'])
@@ -81,6 +86,17 @@ class LivresController{
         $livre = new Livre($bdd->getConnection());
         $livres = $livre->getAllLivres();
         require_once 'views/livres/bibliotheque.php';
+    }
+
+    public function supprimerLivre(){
+        $id = $_GET['id'];
+        if($this->livre->supprimerLivre()){
+            $success = "Le livre a été supprimé avec succès !";
+            header('Location: index.php?action=bibliotheque');
+        } else {
+            $error = "Une erreur est survenue lors de la suppression du livre";
+            require_once 'views/livres/bibliotheque.php';
+        }
     }
 
 }

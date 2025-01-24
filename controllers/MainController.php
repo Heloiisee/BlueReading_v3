@@ -1,13 +1,15 @@
 <?php
-
-// controllers/MainController.php
+// Activer l'affichage des erreurs pour le diagnostic
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+ini_set('error_log', 'error.log');
+error_reporting(E_ALL);
 
 require_once __DIR__ . '/../config/database.php';
 require_once __DIR__ . '/../models/MainManager.php';
 
 class MainController {
     private $mainManager;
-    private $conn;
 
     public function __construct() {
         $database = new Database();
@@ -18,38 +20,45 @@ class MainController {
         try {
             // Récupération des statistiques
             $stats = $this->mainManager->getStatistiques();
-            // Inclusion de la vue
-            require_once 'views/accueil.php';
+
+            // Vérification de l'état de connexion
+            if (isset($_SESSION['user_id'])) {
+                // Debug: Afficher un message si l'utilisateur est connecté
+                // echo "Utilisateur connecté";
+                // Utilisateur connecté
+                require_once __DIR__ . '/../views/accueil_connecte.php';
+            } else {
+                // Debug: Afficher un message si l'utilisateur n'est pas connecté
+                // echo "Utilisateur non connecté";
+                // Utilisateur non connecté
+                require_once __DIR__ . '/../views/accueil_non_connecte.php';
+            }
         } catch(Exception $e) {
             $_SESSION['error'] = "Une erreur est survenue lors du chargement de la page d'accueil";
             $this->pageNonTrouvee();
-
-            // Vous pouvez rediriger vers une page d'erreur ici si vous le souhaitez
         }
     }
+
     public function apropos() {
         $apropos = $this->mainManager->getAProposContent();
-        require_once 'views/apropos.php';
+        require_once __DIR__ . '/../views/apropos.php';
     }
 
     // Méthode pour gérer les erreurs 404
     public function pageNonTrouvee() {
-        require_once 'views/404.php';
+        require_once __DIR__ . '/../views/404.php';
     }
 
-    // controllers/MainController.php
-public function pageStatique($page) {
-    switch($page) {
-        case 'conditions':
-            require_once 'views/pages/politique-confidentialite.html';
-            break;
-        case 'mentions':
-            require_once 'views/pages/mentions-legales.html';
-            break;
-        default:
-            $this->pageNonTrouvee();
+    public function pageStatique($page) {
+        switch($page) {
+            case 'conditions':
+                require_once __DIR__ . '/../views/pages/politique-confidentialite.html';
+                break;
+            case 'mentions':
+                require_once __DIR__ . '/../views/pages/mentions-legales.html';
+                break;
+            default:
+                $this->pageNonTrouvee();
         }
     }
-
-
 }

@@ -436,43 +436,6 @@ footer .lien-utiles a:hover {
   color: #262827;
 }
 
-#fileUploadForm {
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-#fileUploadForm.d-none {
-  display: none;
-}
-#fileUploadForm:not(.d-none) {
-  opacity: 1;
-  height: auto;
-  margin-top: 2rem;
-}
-#fileUploadForm .form-check {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-#fileUploadForm .form-check-input {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-#fileUploadForm .form-check-label {
-  font-weight: 500;
-  font-size: 1.2rem;
-  color: #a97879;
-}
-#fileUploadForm .btn {
-  font-weight: 500;
-}
-#fileUploadForm .btn-custom {
-  background-color: #810e11;
-  color: #fefcfc;
-}
-
 .error-message {
   background-color: #ffebee;
   color: #d32f2f;
@@ -599,4 +562,113 @@ footer .lien-utiles a:hover {
 .error-section .logo-reading {
   color: #333;
   font-weight: bold;
+}
+
+#connexion {
+  padding: 3rem 0;
+}
+#connexion h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #262827;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#connexion #email, #connexion #password {
+  padding: 0.5rem;
+}
+#connexion #email label, #connexion #password label {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #262827;
+}
+#connexion #email input, #connexion #password input {
+  border: 1px solid #262827;
+  border-radius: 0.5rem;
+}
+#connexion .btn {
+  font-weight: 500;
+}
+#connexion .btn-custom {
+  background-color: #810e11;
+  color: #fefcfc;
+  transition: all 0.3s ease;
+  border: 1px solid #810e11;
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+#connexion .btn-custom:hover {
+  background-color: #262827;
+  color: #fefcfc;
+  border: 1px solid #262827;
+}
+#connexion .btn-custom_secondary {
+  background-color: #fefcfc;
+  color: #262827;
+}
+
+#inscription {
+  padding: 3rem 0;
+}
+#inscription h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #262827;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#inscription #nom, #inscription #prenom, #inscription #email, #inscription #password, #inscription #password_confirm {
+  padding: 0.5rem;
+}
+#inscription #nom label, #inscription #prenom label, #inscription #email label, #inscription #password label, #inscription #password_confirm label {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #262827;
+}
+#inscription #nom input, #inscription #prenom input, #inscription #email input, #inscription #password input, #inscription #password_confirm input {
+  border: 1px solid #262827;
+  border-radius: 0.5rem;
+}
+#inscription .btn {
+  font-weight: 500;
+}
+#inscription .btn-custom {
+  background-color: #810e11;
+  color: #fefcfc;
+  transition: all 0.3s ease;
+  border: 1px solid #810e11;
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+#inscription .btn-custom:hover {
+  background-color: #262827;
+  color: #fefcfc;
+  border: 1px solid #262827;
+}
+#inscription .btn-custom_secondary {
+  background-color: #fefcfc;
+  color: #262827;
+}
+
+#lienInscription, #lienConnexion {
+  padding: 1rem 0;
+  text-align: center;
+}
+#lienInscription a, #lienConnexion a {
+  color: #262827;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+#lienInscription a:hover, #lienConnexion a:hover {
+  color: #810e11;
+}
+
+.login-page header {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */

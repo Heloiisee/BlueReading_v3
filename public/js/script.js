@@ -9,7 +9,6 @@ const CONFIG = {
         'to_read': 'À lire',
         'reading': 'En cours',
         'finished': 'Terminé',
-        
     }
 };
 
@@ -35,56 +34,63 @@ const NotificationManager = {
     }
 };
 
-// ====================
-// Validation
-// ====================
-// class BookValidator {
-//     constructor() {
-//         this.errors = [];
-//     }
+class BookValidator {
+    constructor() {
+        this.errors = [];
+    }
 
-//     validateBook(bookData) {
-//         this.errors = [];
+    validateBook(bookData) {
+        this.errors = [];
         
-//         this.validateField('titre', bookData.titre, 2);
-//         this.validateField('auteur', bookData.auteur, 2);
-//         this.validateNumber('nombre_pages', bookData.nombre_pages);
-//         this.validateDate(bookData.date);
-//         this.validateField('statut', bookData.statut, 2);
-//         this.validateGenres(bookData.genres);
+        this.validateField('titre', bookData.titre, 2);
+        this.validateField('auteur', bookData.auteur, 2);
+        this.validateNumber('pages', bookData.pages);
+        this.validateField('genre', bookData.genre, 2);
+        this.validateDate(bookData.date_publication);
+        this.validateField('description', bookData.description, 10);
+        this.validateURL('couverture', bookData.couverture);
+        this.validateField('statut', bookData.statut, 2);
+        this.validateEnum('statut', bookData.statut, ['À lire', 'En cours', 'Terminé']);
 
-//         return this.errors.length === 0;
-//     }
+        return this.errors.length === 0;
+    }
 
-//     validateField(fieldName, value, minLength) {
-//         if (!value || value.trim().length < minLength) {
-//             this.errors.push(`Le champ ${fieldName} doit contenir au moins ${minLength} caractères`);
-//         }
-//     }
+    validateField(fieldName, value, minLength) {
+        if (!value || value.trim().length < minLength) {
+            this.errors.push(`Le champ ${fieldName} doit contenir au moins ${minLength} caractères`);
+        }
+    }
 
-//     validateNumber(fieldName, value) {
-//         if (!value || value < 1) {
-//             this.errors.push(`Le champ ${fieldName} doit être supérieur à 0`);
-//         }
-//     }
+    validateNumber(fieldName, value) {
+        if (!value || value < 1 || isNaN(value)) {
+            this.errors.push(`Le champ ${fieldName} doit être un nombre supérieur à 0`);
+        }
+    }
 
-//     validateDate(dateString) {
-//         const date = new Date(dateString);
-//         if (!dateString || isNaN(date.getTime())) {
-//             this.errors.push('La date n\'est pas valide');
-//         }
-//     }
+    validateDate(dateString) {
+        const date = new Date(dateString);
+        if (!dateString || isNaN(date.getTime())) {
+            this.errors.push('La date de publication n\'est pas valide');
+        }
+    }
 
-//     validateGenres(genres) {
-//         if (!genres || !Array.isArray(genres) || genres.length === 0) {
-//             this.errors.push('Sélectionnez au moins un genre');
-//         }
-//     }
+    validateImage(fieldName, file) {
+        if (!file || !file.name.match(/\.(jpg|jpeg|png)$/)) {
+            this.errors.push(`Le champ ${fieldName} doit contenir une image valide (jpg, jpeg, png)`);
+        }
+    }
 
-//     getErrors() {
-//         return this.errors;
-//     }
-// }
+    validateEnum(fieldName, value, validValues) {
+        if (!validValues.includes(value)) {
+            this.errors.push(`Le champ ${fieldName} doit être l'une des valeurs suivantes : ${validValues.join(', ')}`);
+        }
+    }
+
+    getErrors() {
+        return this.errors;
+    }
+}
+
 
 // ====================
 // Navigation
@@ -128,15 +134,12 @@ const Navigation = {
         `;
         return loadingPage;
     },
-    
 
     handleReturn(event) {
         event.preventDefault();
-         // Vérifie si le document.referrer est défini et non vide
         if (document.referrer && document.referrer !== '') {
             window.location.href = document.referrer;
         } else {
-            // Redirige vers la page d'accueil si le referrer n'est pas défini
             window.location.href = '../index.php';
         }
     }
@@ -153,7 +156,7 @@ const FormManager = {
         }
     },
 
-    async handleSubmission(event) {
+    handleSubmission(event) {
         event.preventDefault();
         
         const formData = new FormData(event.target);
@@ -165,55 +168,43 @@ const FormManager = {
             return;
         }
 
-        try {
-            const response = await this.sendBookToServer(bookData);
-            if (response.success) {
-                NotificationManager.showSuccess('Livre ajouté avec succès !');
-                this.resetForm(event.target);
-                BooksManager.refreshBooksList();
-            } else {
-                NotificationManager.showError(response.error || 'Erreur lors de l\'ajout du livre');
-            }
-        } catch (error) {
-            NotificationManager.showError('Une erreur est survenue lors de l\'ajout du livre');
-            console.error('Erreur de soumission:', error);
-        }
+        // Appeler la fonction sauvegarderLivre dans le contrôleur
+        this.sauvegarderLivre(bookData);
     },
 
     createBookDataObject(formData) {
         return {
             titre: formData.get('titre'),
             auteur: formData.get('auteur'),
-            nombre_pages: parseInt(formData.get('pages')),
-            genres: formData.getAll('genres[]'),
-            date: formData.get('date'),
-            statut: formData.get('statut'),
+            pages: parseInt(formData.get('pages')),
+            genre: formData.get('genre'),
+            date_publication: formData.get('date_publication'),
+            description: formData.get('description'),
             couverture: formData.get('coverImage'),
-            fichier_book: formData.get('bookFile'),
-            etiquettes: formData.get('etiquettes')?.split(',').map(tag => tag.trim()) || []
+            statut: formData.get('statut')
         };
     },
 
-    async sendBookToServer(bookData) {
-        const formData = new FormData();
-        Object.entries(bookData).forEach(([key, value]) => {
-            if (Array.isArray(value)) {
-                value.forEach(item => formData.append(`${key}[]`, item));
-            } else {
-                formData.append(key, value);
-            }
-        });
-
-        const response = await fetch('views/livres/traitement-ajout.php', {
+    sauvegarderLivre(bookData) {
+        // Appelle la fonction du contrôleur pour sauvegarder le livre
+        fetch('index.php?action=sauvegarderLivre', {
             method: 'POST',
-            body: formData
-        });
-
-        if (!response.ok) {
-            throw new Error(`Erreur serveur: ${response.status}`);
-        }
-
-        return await response.json();
+            body: JSON.stringify(bookData),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    NotificationManager.showSuccess('Livre ajouté avec succès !');
+                    BooksManager.refreshBooksList();
+                } else {
+                    NotificationManager.showError(data.error || 'Erreur lors de l\'ajout du livre');
+                }
+            }).catch(error => {
+                NotificationManager.showError('Une erreur est survenue lors de l\'ajout du livre');
+                console.error('Erreur de soumission:', error);
+            });
     },
 
     resetForm(form) {
@@ -221,13 +212,9 @@ const FormManager = {
         form.querySelectorAll('.is-invalid').forEach(field => {
             field.classList.remove('is-invalid');
         });
-    },
-
-    toggleFormVisibility(showFileUpload) {
-        document.getElementById('fileUploadForm')?.classList.toggle('d-none', !showFileUpload);
-        document.getElementById('firstStep')?.classList.toggle('d-none', showFileUpload);
     }
 };
+
 
 // ====================
 // Gestionnaire de livres
@@ -262,9 +249,7 @@ const BooksManager = {
 
     refreshBooksList() {
         // Méthode pour actualiser la liste des livres
-        // Vous pouvez implémenter la logique de rechargement des livres ici
         try {
-            // Exemple de logique (à adapter à votre contexte)
             fetch('index.php?action=listerLivres')
                 .then(response => response.json())
                 .then(books => {
@@ -288,7 +273,6 @@ const BooksManager = {
         }
     },
 
-
     createBookElement(book) {
         // Création du conteneur principal
         const bookDiv = document.createElement('div');
@@ -300,8 +284,8 @@ const BooksManager = {
                 <div class="card-body">
                     <div class="d-flex">
                         <div class="book-cover-wrapper me-3">
-                            ${book.couverture ? 
-                                `<img src="${this.escapeHtml(book.couverture)}" 
+                            ${book.image ? 
+                                `<img src="${this.escapeHtml(book.image)}" 
                                     alt="Couverture de ${this.escapeHtml(book.titre)}" 
                                     class="book-cover">` 
                                 : ''}
@@ -380,7 +364,9 @@ const BooksManager = {
     }
 };
 
+// ====================
 // Gestionnaire de filtres et recherche
+// ====================
 const FilterManager = {
     initialize() {
         // Récupération des éléments DOM
@@ -474,7 +460,7 @@ const FilterManager = {
         const filterMapping = {
             'reading': 'en cours',
             'finished': 'terminé',
-            'toRead': 'à lire'
+            'to_read': 'à lire'
         };
 
         return status.includes(filterMapping[this.currentFilters.status] || '');
@@ -523,16 +509,12 @@ const FilterManager = {
     }
 };
 
-
 // ====================
-// Initialisation
+// Initialisation des Écouteurs d'Événements
 // ====================
 document.addEventListener('DOMContentLoaded', () => {
     Navigation.initialize();
-    FormManager.initialize();
     BooksManager.initialize();
+    FormManager.initialize();
     FilterManager.initialize();
 });
-
-console.log(BooksManager);
-console.log(typeof BooksManager.initialize);
